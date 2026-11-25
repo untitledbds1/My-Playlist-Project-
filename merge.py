@@ -23,9 +23,8 @@ PLAYLISTS = [
 OUTPUT_FILE = "Combined.m3u"
 EPG_URL = "https://www.tsepg.cf/epg.xml.gz"
 
-# ------------------ BRANDING SUFFIXES ------------------
-SPORTLINK_SUFFIX = " | Sportlink"
-VIRAT10_SUFFIX = " @virat10"
+# ------------------ BRANDING SUFFIXES (removed) ------------------
+# SPORTLINK_SUFFIX and VIRAT10_SUFFIX are no longer used.
 
 # ------------------ CATEGORY OVERRIDE PER SOURCE ------------------
 # If a source is listed here, ALL its channels go into that single category.
