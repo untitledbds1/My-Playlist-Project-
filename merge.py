@@ -17,7 +17,6 @@ PLAYLISTS = [
     {"name": "SUN",         "icon": "☀️", "url": "https://vk-playlist.pages.dev/sun.m3u"},
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://sportlink-tv10.pages.dev/tstar.m3u"},
     {"name": "JIO-TV",      "icon": "📡", "url": "https://df6d.short.gy/sspjio.m3u"},
-    {"name": "LiveEvents",     "icon": "🏏", "url": "https://kliv.in/live-events"}, 
 ]
 
 OUTPUT_FILE = "Combined.m3u"
@@ -80,21 +79,22 @@ CATEGORY_MAP = {
 DEFAULT_CATEGORY = "Other"
 
 # ------------------ CATEGORY ORDER (first = top) ------------------
+# Suffixes removed — categories are now bare names.
 CATEGORY_ORDER = [
-    "Sports Special | Sportlink",
-    "Live Events | Sportlink",
-    "Fancode | Sportlink",
-    "SonyLIV | Sportlink",
-    "Willow | Sportlink",
-    "Prime Video | Sportlink",
-    "Hotstar | Sportlink",
-    "Jio Hotstar | Sportlink",
+    "Sports Special",
+    "Live Events",
+    "Fancode",
+    "SonyLIV",
+    "Willow",
+    "Prime Video",
+    "Hotstar",
+    "Jio Hotstar",
     # VZY's own groups appear below (Movies, Entertainment, Music, News, Sports)
-    "Movies | Sportlink",
-    "Entertainment | Sportlink",
-    "Music | Sportlink",
-    "News | Sportlink",
-    "Sports | Sportlink",
+    "Movies",
+    "Entertainment",
+    "Music",
+    "News",
+    "Sports",
 ]
 
 # ------------------ HELPER FUNCTIONS ------------------
@@ -157,30 +157,11 @@ def categorize_channel(title):
     return DEFAULT_CATEGORY
 
 def fix_channel_block(block, category):
-    """Apply branding suffixes and set correct group-title."""
+    """Set correct group-title. No branding suffixes are added."""
     new_block = []
     for line in block:
         if line.startswith('#EXTINF'):
-            # --- 1. Append @virat10 to tvg-name (or add it if missing) ---
-            if 'tvg-name=' in line:
-                line = re.sub(
-                    r'tvg-name="([^"]*)"',
-                    lambda m: f'tvg-name="{m.group(1).strip()}{VIRAT10_SUFFIX}"',
-                    line
-                )
-            else:
-                # No tvg-name — create one from the channel title
-                parts = line.rsplit(',', 1)
-                if len(parts) > 1:
-                    title = parts[1].strip()
-                    if line.startswith('#EXTINF:-1 '):
-                        line = line.replace(
-                            '#EXTINF:-1 ',
-                            f'#EXTINF:-1 tvg-name="{title}{VIRAT10_SUFFIX}" ',
-                            1
-                        )
-
-            # --- 2. Set group-title to the category (which already has | Sportlink) ---
+            # Only set group-title — no tvg-name suffix, no @virat10
             if 'group-title=' in line:
                 line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', line)
             else:
@@ -212,19 +193,18 @@ def main():
         for block in extract_channel_blocks(lines):
             if override_cat:
                 # Hard override — all channels go into one category
-                base_category = override_cat
+                category = override_cat
             else:
                 # Prefer the channel's own group-title from the playlist
                 own_group = get_group_title(block)
                 if own_group:
-                    base_category = own_group
+                    category = own_group
                 else:
                     # Fall back to keyword categorization
                     title = get_channel_title(block)
-                    base_category = categorize_channel(title)
+                    category = categorize_channel(title)
 
-            # Append Sportlink suffix to every category
-            category = f"{base_category}{SPORTLINK_SUFFIX}"
+            # NOTE: No suffix appended anymore — category is used as-is
             all_channels.append((category, block))
 
     # Group by category
