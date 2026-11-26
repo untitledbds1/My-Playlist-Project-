@@ -16,7 +16,7 @@ PLAYLISTS = [
     {"name": "SONY",        "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/refs/heads/main/sony.m3u"},
     {"name": "SUN",         "icon": "☀️", "url": "https://vk-playlist.pages.dev/sun.m3u"},
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://sportlink-tv10.pages.dev/tstar.m3u"},
-    {"name": "JIO-TV",      "icon": "📡", "url": "https://df6d.short.gy/sspjio.m3u"},
+    {"name": "JIO-TV",      "icon": "📡", "url": "https://df6d.shrt.gy/sspjio.m3u"},
     {"name": "LiveEvents",     "icon": "🏏", "url": "https://kliv.in/live-events"}, 
     {"name": "JIOTV++",      "icon": "📡", "url": "http://sflex.fun/Sflex-Jio/ZioTvPlus.php"},
 ]
