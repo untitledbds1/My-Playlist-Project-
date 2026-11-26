@@ -18,6 +18,7 @@ PLAYLISTS = [
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://sportlink-tv10.pages.dev/tstar.m3u"},
     {"name": "JIO-TV",      "icon": "📡", "url": "https://df6d.short.gy/sspjio.m3u"},
     {"name": "LiveEvents",     "icon": "🏏", "url": "https://kliv.in/live-events"}, 
+    {"name": "JIOTV++",      "icon": "📡", "url": "http://sflex.fun/Sflex-Jio/ZioTvPlus.php"},
 ]
 
 OUTPUT_FILE = "Combined.m3u"
