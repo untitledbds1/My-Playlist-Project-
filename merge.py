@@ -11,14 +11,13 @@ PLAYLISTS = [
     {"name": "WILLOW",      "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
     {"name": "PRIMEVIDEO",  "icon": "📺", "url": "https://raw.githubusercontent.com/doctor-8trange/tekzya9/refs/heads/main/data/primevideoindia.m3u"},
     {"name": "VZY",         "icon": "🎬", "url": "https://premiumplugx.me/vzy/playlist.php"},
-    {"name": "JIO-TV",      "icon": "📡", "url": "https://jiobkl.ytzinadabaad.workers.dev/"},
+    {"name": "JIO-TV",      "icon": "📡", "url": "https://jiobkl.ytinadabaad.workers.dev/"},
     {"name": "ZEE",         "icon": "📺", "url": ""},
     {"name": "SONY",        "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/refs/heads/main/sony.m3u"},
     {"name": "SUN",         "icon": "☀️", "url": "https://vk-playlist.pages.dev/sun.m3u"},
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://sportlink-tv10.pages.dev/tstar.m3u"},
-    {"name": "JIO-TV",      "icon": "📡", "url": "https://df6d.shrt.gy/sspjio.m3u"},
     {"name": "LiveEvents",     "icon": "🏏", "url": "https://kliv.in/live-events"}, 
-    {"name": "JIOTV++",      "icon": "📡", "url": "http://sflex.fun/Sflex-Jio/ZioTvPlus.php"},
+    {"name": "JIOTV++",      "icon": "📡", "url": "https://stlittleqawesrdtyuytrhegwfds.higuifytdrseaw.workers.dev/m3u"},
 ]
 
 OUTPUT_FILE = "Combined.m3u"
