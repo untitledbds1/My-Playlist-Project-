@@ -2,10 +2,7 @@
 #===== Fancode (8 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Saturday, 28 November 2026 at 1:29:31 pm
-
-#EXTINF:-1 tvg-id="4250423" tvg-name="Melbourne Stars Women Vs Melbourne Renegades Women" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4250423_53125_MR-W_MS-W_fc-web_1793352702065.jpg" tvg-language="English" group-title="Fancode",ENG | Melbourne Stars Women Vs Melbourne Renegades Women
-https://in-mc-vod.fancode.com/mumbai/4250423_english_hls_afd62b9eee64615_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#DATE:- Saturday, 28 November 2026 at 1:59:31 pm
 
 #EXTINF:-1 tvg-id="4250424" tvg-name="Sydney Thunder Women Vs Sydney Sixers Women" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4250424_53125_ST-W_SS-W_fc-web_1793352702043.jpg" tvg-language="English" group-title="Fancode",ENG | Sydney Thunder Women Vs Sydney Sixers Women
 https://in-mc-vod.fancode.com/mumbai/4250424_english_hls_5f98ce686243433_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -15,6 +12,9 @@ https://in-mc-vod.fancode.com/mumbai/4251088_english_hls_41cecff58216504_1ta-di_
 
 #EXTINF:-1 tvg-id="139988" tvg-name="Day 2" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Moto-GP-Valencia_Web.jpg" tvg-language="English" group-title="Fancode",ENG | Day 2
 https://in-mc-vod.fancode.com/mumbai/139988_english_hls_eced0baf6984020_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="4249864" tvg-name="Central Coast Mariners Vs Auckland" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249864_53101_CCM_AFC_fc-Web_1792223292223.jpg" tvg-language="English" group-title="Fancode",ENG | Central Coast Mariners Vs Auckland
+https://in-mc-vod.fancode.com/mumbai/4249864_english_hls_b1cf53df8757772_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-id="4250423" tvg-name="Melbourne Stars Women Vs Melbourne Renegades Women" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4250423_53125_MR-W_MS-W_fc-web_1793352702065.jpg" group-title="Fancode",Melbourne Stars Women Vs Melbourne Renegades Women
 https://in-mc-vod.fancode.com/mumbai/4250423_english_hls_afd62b9eee64615_1ta-di_h264/1080p.m3u8
@@ -27,29 +27,22 @@ https://in-mc-vod.fancode.com/mumbai/139988_english_hls_eced0baf6984020_1ta-di_h
 
 #===== SonyLIV (1 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000030044/1795694818521427_AO_wildcard_playoffs_2027_Womens_and_Mens_Singles_Final_landscape_thumb.jpg" group-title="SonyLIV", Men's & Women's Singles - Final - 28 Nov 2026 [ENG] - AO Asia Pacific Wildcard Playoffs 2027
-https://sonyeventsglobal.akamaized.net/hls/live/2120299/Tennis_A2811/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795895593~acl=/*~id=51509262792613301851658974679084~hmac=efc63f451969afb9d6bb860aa18946b938435410fe2a988e4441e57a352bf84f
+https://sonyeventsglobal.akamaized.net/hls/live/2120299/Tennis_A2811/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795899833~acl=/*~id=16967078273420750748204589953934~hmac=ef45579d968ce25fe36dc24b74f7aefd4999478e5b29a57b0849b17cdff7134c
 
-#===== Willow (5 channels) =====
+#===== Willow (4 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:01:32 PM 28-11-2026
+#LAST_UPDATE:03:02 PM 28-11-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:2
-#UPCOMING_COUNT:18
+#LIVE_COUNT:1
+#UPCOMING_COUNT:19
 
-#EXTINF:-1 tvg-id="B0HMC669H2" tvg-name="India tour of New Zealand 2026 - 2nd Test - New Zealand vs India" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.19313f89-c5fa-4a9c-9365-3678c06bba58/9/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",India tour of New Zealand 2026 - 2nd Test - New Zealand vs India
+#EXTINF:-1 tvg-id="B0HLWGFBXD" tvg-name="Womens Big Bash League 2026 - 38th Match - Sydney Thunder Women vs Sydney Sixers Women" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.7b6a596e-9394-466d-a5c3-4593b3c77600/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Womens Big Bash League 2026 - 38th Match - Sydney Thunder Women vs Sydney Sixers Women
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3a03ae3c3066640296a041f319d528b8:b757a6777c811bd3744a7cb4a722116b
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/utkibvcc9z/out/v1/31b17c839ec64da6a802d79ec5dd4f77/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HL52VQCV" tvg-name="Womens Big Bash League 2026 - 37th Match - Melbourne Renegades Women vs Melbourne Stars Women" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.14fd1b72-e146-4349-a891-1771b3aad0ff/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Womens Big Bash League 2026 - 37th Match - Melbourne Renegades Women vs Melbourne Stars Women
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c1cf31ab4b238c9c0bd1a653cd5d4918:a2471af5b035199c2e739085143062d4
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/29zmikjvfd/out/v1/67d74da2234e44aa9154e4d90eb2d83f/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=7e9184bb9fed0727a24a8954562d7eb6:54182ee50af7097cf46a8fa7c3cb7626
+https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/vmx0zl2u76/out/v1/36c58b0cecc44790ac48987a20387786/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HMC669H2" tvg-name="India tour of New Zealand 2026 - 2nd Test - New Zealand vs India" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.19313f89-c5fa-4a9c-9365-3678c06bba58/9/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",India tour of New Zealand 2026 - 2nd Test - New Zealand vs India
 #KODIPROP:inputstream=inputstream.adaptive
