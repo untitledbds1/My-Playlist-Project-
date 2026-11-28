@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode (11 channels) =====
+#===== Fancode (14 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Saturday, 28 November 2026 at 6:24:34 pm
+#DATE:- Saturday, 28 November 2026 at 7:49:33 pm
 
 #EXTINF:-1 tvg-id="4251151" tvg-name="Brescia Lions Vs Rome Gladiators" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Brescia-Lions-vs-Rome-Gladiators_web.png" tvg-language="English" group-title="Fancode",ENG | Brescia Lions Vs Rome Gladiators
 https://in-mc-vod.fancode.com/mumbai/4251151_english_hls_acdf23ee4415372_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -12,6 +12,9 @@ https://in-mc-vod.fancode.com/mumbai/4251057_english_hls_532c94c02873604_1ta-di_
 
 #EXTINF:-1 tvg-id="4250913" tvg-name="Sohar Smashers Women Vs Ghubra Giants Women" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/IMG_7278.jpeg" tvg-language="English" group-title="Fancode",ENG | Sohar Smashers Women Vs Ghubra Giants Women
 https://in-mc-vod.fancode.com/mumbai/4250913_english_hls_5dc23e5c3848724_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="4251058" tvg-name="Gulf Giants Vs Dubai Capitals" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4251058_53162_GG_DC_FC-APP.jpg" tvg-language="English" group-title="Fancode",ENG | Gulf Giants Vs Dubai Capitals
+https://in-mc-vod.fancode.com/mumbai/4251058_english_hls_eefd7de0ee19658_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-id="4250971" tvg-name="Al Hazem Fc Vs Al Nassr Fc" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4250971_53025_HAZ_ANF_FC-App_1795077051519.png" tvg-language="English" group-title="Fancode",ENG | Al Hazem Fc Vs Al Nassr Fc
 https://in-mc-vod.fancode.com/mumbai/4250971_english_hls_3f6d3e461972940_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -29,8 +32,21 @@ https://in-mc-vod.fancode.com/mumbai/4250017_english_hls_0f3078357e4413_1ta-di_h
 #EXTHTTP:{"user-agent":"ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1","referer":"https://fancode.com/"}
 https://in-mc-flive.fancode.com/out/v1/ap-south-1/4247698_english_924643/ad-drm-h264/master.mpd
 
+#EXTINF:-1 tvg-id="4250972" tvg-name="Al Ettifaq Vs Al Hilal Sfc" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4250972_53025_ETT_AHS_FC-App_1795077051526.png" tvg-language="English" group-title="Fancode",ENG | Al Ettifaq Vs Al Hilal Sfc
+https://in-mc-vod.fancode.com/mumbai/4250972_english_hls_c2c855bfe850786_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
 #EXTINF:-1 tvg-id="4250888" tvg-name="Day 3" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Andalucia-Costa-Del-Sol-Open-De-Espana_1080_x_810.jpg" tvg-language="English" group-title="Fancode",ENG | Day 3
 https://in-mc-vod.fancode.com/mumbai/4250888_english_hls_2b8e33f44e79993_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="139524" tvg-name="Practice 3" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR_fc-web_1795503370459.jpg" group-title="Fancode",[DRM] ENG | Practice 3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"qeEYAO3asUcWEWaGK2tdog","kid":"BR1cwBdITZqkAkGN0sIwgg","kty":"oct"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+#EXTHTTP:{"user-agent":"ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1","referer":"https://fancode.com/"}
+https://in-mc-flive.fancode.com/mumbai/139524_english_dash_87060_1drmta-di_h264/index.mpd
 
 #EXTINF:-1 tvg-id="4250423" tvg-name="Melbourne Stars Women Vs Melbourne Renegades Women" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4250423_53125_MR-W_MS-W_fc-web_1793352702065.jpg" group-title="Fancode",Melbourne Stars Women Vs Melbourne Renegades Women
 https://in-mc-vod.fancode.com/mumbai/4250423_english_hls_afd62b9eee64615_1ta-di_h264/1080p.m3u8
@@ -43,17 +59,17 @@ https://in-mc-vod.fancode.com/mumbai/139988_english_hls_eced0baf6984020_1ta-di_h
 
 #===== SonyLIV (3 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000030150/1795772821080275_ISL26_ChennaiyinFC_vs_MumbaiCityFC_landscape_thumb.jpg" group-title="SonyLIV", Chennaiyin FC vs Mumbai City FC - 28 Nov 2026 [ENG] - MG Indian Super League 2026-27
-https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive2811/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795915570~acl=/*~id=35596535898858626277026865146495~hmac=8fe82a3da75f0a90d749051322bb01a88dceb3d43d4fa5ed89bddbe78a8515b3
+https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive2811/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795918610~acl=/*~id=95369069872269948692544941652065~hmac=43bf5d29ce59ae3eae89e741db56a43277c9ee545bad426c989f1220603023ba
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000030150/1795772821080275_ISL26_ChennaiyinFC_vs_MumbaiCityFC_landscape_thumb.jpg" group-title="SonyLIV", Chennaiyin FC vs Mumbai City FC - 28 Nov 2026 [HIN] - MG Indian Super League 2026-27
-https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive2811/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795915570~acl=/*~id=35596535898858626277026865146495~hmac=8fe82a3da75f0a90d749051322bb01a88dceb3d43d4fa5ed89bddbe78a8515b3
+https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive2811/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795918610~acl=/*~id=95369069872269948692544941652065~hmac=43bf5d29ce59ae3eae89e741db56a43277c9ee545bad426c989f1220603023ba
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000030150/1795772821080275_ISL26_ChennaiyinFC_vs_MumbaiCityFC_landscape_thumb.jpg" group-title="SonyLIV", Chennaiyin FC vs Mumbai City FC - 28 Nov 2026 [TAM] - MG Indian Super League 2026-27
-https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive2811/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795915570~acl=/*~id=35596535898858626277026865146495~hmac=8fe82a3da75f0a90d749051322bb01a88dceb3d43d4fa5ed89bddbe78a8515b3
+https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive2811/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795918610~acl=/*~id=95369069872269948692544941652065~hmac=43bf5d29ce59ae3eae89e741db56a43277c9ee545bad426c989f1220603023ba
 
 #===== Willow (4 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:07:02 PM 28-11-2026
+#LAST_UPDATE:07:32 PM 28-11-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -64,7 +80,7 @@ https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive2811/TAM/std_lrh
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=93eeb44d1f28ed952f0122a4c9e213af:ad2fd224bbd23bb898ec346ebf1bd59f
-https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/72h1hddob2/out/v1/2f42cd5273e24fe2951db3b1d0dc6679/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/72h1hddob2/out/v1/2f42cd5273e24fe2951db3b1d0dc6679/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HMC669H2" tvg-name="India tour of New Zealand 2026 - 2nd Test - New Zealand vs India" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.19313f89-c5fa-4a9c-9365-3678c06bba58/9/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",India tour of New Zealand 2026 - 2nd Test - New Zealand vs India
 #KODIPROP:inputstream=inputstream.adaptive
